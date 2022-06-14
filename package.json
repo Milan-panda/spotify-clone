@@ -1,9 +1,11 @@
 {
   "name": "spotify-clone",
+  "homepage": "https://Milan-panda.github.io/spotify-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "axios": "^0.27.2",
+    "gh-pages": "^4.0.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.4.0",
@@ -12,6 +14,8 @@
   },
   "devDependencies": {},
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
