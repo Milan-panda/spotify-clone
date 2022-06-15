@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Login() {
   const handleClick = async () => {
     // const clientId = "69c51a49fcc14b44b5d51ab2dc2bc56d";
-    const clientId = "c7bd69602f0a4e6a9e8b685ee4f308fb";
+    const clientId = "103ccdf8af5f4b88a63a996acbb049e1";
     // const redirectUrl = "http://localhost:3000/";
     const redirectUrl = "https://milan-panda.github.io/spotify-clone/";
     const apiUrl = "https://accounts.spotify.com/authorize";
